@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "GuardianEgyp-Regular", sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #052962;
+    height: 150px;
+    padding: 10px 20px; /* Espacement autour du header */
+}
+
+.navbar {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    font-size: 1.3em;
+    margin: 0; 
+    padding: 0; 
+    display: flex;
+}
+
+.menu li {
+    margin-right: 15px;
+}
+
+.menu a {
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: #ffffff; /* Couleur du texte des liens */
+    font-weight: bold; 
+    padding: 10px ; 
+    border-right: 0.25px solid white;
+}
+
+/* Changer la couleur de fond au survol */
+.menu a:hover {
+    color: #ffe501;
+}
+
+.logo {
+    height: 200px;
+}
+
+
+.container {
+    width: 60%;  /* Largeur du conteneur, ajustable selon tes besoins */
+    margin: 0 auto;  /* Centrer le conteneur horizontalement */
+    padding: 20px;  /* Ajouter un peu d'espace à l'intérieur du conteneur */
+}
+
+
+#svg-pourcentages svg {
+    transform: scale(1.1);
+    transform-origin: center;
+}
